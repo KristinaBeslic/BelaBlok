@@ -89,3 +89,11 @@ dependencies {
 kapt {
     correctErrorTypes = true
 }
+
+task wrapper(type: Wrapper){
+    gradleVersion = '7.2'
+}
+
+task prepareKotlinBuildScriptModel {
+
+}
